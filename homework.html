@@ -1,0 +1,135 @@
+<!-- <!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <title>Список фруктів</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 40px;
+    }
+
+    .wrapper {
+      background-color: #e288a3;
+      padding: 30px;
+      max-width: 400px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+
+    ol {
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background-color: #c75371;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      font-weight: bold;
+      color: white;
+    }
+
+    li span {
+      background-color: #a63251;
+      padding: 5px 10px;
+      margin-left: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <ol>
+      <li>1. <span>Apple</span></li>
+      <li>2. <span>Orange</span></li>
+      <li>3. <span>Pineapple</span></li>
+      <li>4. <span>Pear</span></li>
+      <li>5. <span>Cherry</span></li>
+    </ol>
+  </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My To Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 30px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      max-width: 500px;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+
+    li:nth-child(odd) {
+      background-color: #bde0f5;
+    }
+
+    li:nth-child(even) {
+      background-color: #d2ecf9;
+    }
+
+    .done {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .checked::before {
+      content: "☑️";
+      margin-right: 10px;
+    }
+
+    .unchecked::before {
+      content: "☐";
+      margin-right: 10px;
+    }
+
+    .remove {
+      color: red;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My To Do List</h1>
+  <ul>
+    <li><span class="unchecked">Hit the gym</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Meet John</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Buy eggs</span><span class="remove">×</span></li>
+    <li><span class="checked done">Read a book</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Organize office</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Eat dinner</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Buy apples</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Meet George</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Feed the cat</span><span class="remove">×</span></li>
+    <li><span class="checked done">Write a letter</span><span class="remove">×</span></li>
+    <li><span class="unchecked">Run 1 km</span><span class="remove">×</span></li>
+  </ul>
+</body>
+</html>

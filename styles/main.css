@@ -1,0 +1,53 @@
+/* a,p {
+    color: rgb(255, 0, 149);
+    font-size: 16mpx;
+    font-weight: bold;
+}
+body {
+    background-color: coral;
+} */
+
+/* 
+body {
+  background-color: #b12c73;
+  font-family: Georgia, serif;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue; */
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+
+.scroll-box {
+  height: 300px;
+  overflow-y: scroll;
+  background-image: url("abey.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
