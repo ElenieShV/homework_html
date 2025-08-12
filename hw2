@@ -1,0 +1,92 @@
+#HTML
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<table>
+    <head>
+        <tr>
+            <th></th>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+            <th>Header 5</th>
+        </tr>
+    </head>
+    <body>
+        <tr>
+            <td>Line 1</td><td>23</td><td>123</td><td>43</td><td>12</td><td>76</td>
+        </tr>
+        <tr>
+            <td>Line 2</td><td>23</td><td>123</td><td>43</td><td>12</td><td>76</td>
+        </tr>
+        <tr>
+            <td>Line 2</td><td>34</td><td>63</td><td>25</td><td>7</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 3</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 4</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 5</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 6</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 1</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 7</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <td>Line 8</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td>
+        </tr>
+    </body>
+</table>
+
+</body>
+</html>
+
+
+
+  #CSS
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #999;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #b4d9e5;
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    background-color: #b4d9e5;
+    font-weight: bold;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f3f3f3;
+}
+
+
