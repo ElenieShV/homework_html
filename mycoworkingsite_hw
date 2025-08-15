@@ -10,7 +10,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-row">
       <a class="logo" href="#">
@@ -26,7 +25,7 @@
     </div>
   </header>
 
-  <!-- HERO -->
+  
   <section class="hero">
     <div class="container hero-wrap">
       <div class="hero-text">
@@ -44,19 +43,18 @@
       </div>
 
       <div class="hero-media">
-        <!-- обложка/фото простору -->
+       
         <img src="./pics/frontpage.jpg" alt="SHALLARI estet studio">
       </div>
     </div>
   </section>
 
-  <!-- RESIDENTS INTRO -->
+ 
   <section id="residents" class="section section--alt">
     <div class="container">
       <h2>Наші резиденти</h2>
       <p class="muted">обери собі фахівця</p>
 
-      <!-- направления/чипы -->
       <div class="chips">
         <span>Косметологія</span>
         <span>Тріхологія</span>
@@ -68,7 +66,7 @@
         <a class="chip-link" href="#education">Фахівці з медичною освітою</a>
       </div>
 
-      <!-- сетка мастеров -->
+    
       <div class="grid masters">
         
         <article class="master">
